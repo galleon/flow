@@ -1,7 +1,10 @@
+# Introduction
+
 Lorsque l'on travaille sur un projet, nous allons avoir un tas de fonctionnalités 
 ou d'idées différentes que nous allons vouloir explorer. Certaines seront matures
 rapidement, et d'autres mettrons plus de temps à se consolider. 
 
+# Branches
 Le concept de branches dans github existe pour nous aider à gérer ces différentes
 activité
 
@@ -20,6 +23,7 @@ modification particulière a été apportée. De plus, chaque commit est consid�
 une unité de changement distincte. Cela permet d'annuler les modifications si 
 un bug est détecté ou si l'on décide de se diriger dans une direction différente.
 
+# Pull Requests
 Les Pull Requests lancent une discussion sur un ensemble de commits. N'importe qui
 peut voir exactement quelles modifications seraient fusionnées s'il acceptait votre demande.
 
@@ -47,3 +51,14 @@ Une fois la Pull request accepté elle sera déployée sur l'infrastructure GitH
 afin d'être testée. Si les tests passent correctement alors une nouvelle version, 
 sera déployée. Le numéro de version dépendra alors du commentaire laissé par le 
 reviewer dans la Pull Request.
+
+# Summary
+
+- git clone airbus/scikit-decide
+- git branch mystuff
+
+Quand on est souhaite partager, on crée un Pull Request (PR)
+
+- 
+
+#Advanced topics
